@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/main.min.css">
+   <link rel="stylesheet" href="./css/main.min.css"> 
    <title>Document</title>
 </head>
 <body>
@@ -13,14 +13,20 @@
    
    <header class="header header--open">
       <div class="container">
-         <a href="./home.html\" class="header__logo-link">
-            <img  class="header__logo-link__image" src="" alt="logo">
+         <a class="header__logo-link"  href="./home.html"> 
+            <img  class="header__logo-link__image" src="./images/logo.svg" alt="logo" width="60" height="32">
          </a>
 
+         <button class="header__hamburgerbtn" type="button">
+            <img class="hamburgerbtn-menu" src="./images/hamburger-menu.svg" alt="hamburger-menu" width="24" height="13">
+
+            <img class="hamburgerbtn__exit" src="./images/hamburger-exit.svg" alt="hamburger-menu" width="24" height="13">
+         </button>
+
          <nav class="header__nav">
-            <ul class="nav__item">
+            <ul class="nav__list">
                <li class="nav__item">
-                  <a class="nav__link nav__link" href="./home.html">HOME</a>
+                  <a class="nav__link nav__link--color" href="./home.html">HOME</a>
                </li>
                <li class="nav__item">
                   <a class="nav__link" href="#">PORTFOLIO</a>
@@ -46,7 +52,7 @@
          </div>
       </section>
 
-      <section class="about">
+      <!-- <section class="about">
          <div class="container">
             <picture class="about__picture">
 
@@ -68,9 +74,9 @@
 
 
          </div>
-      </section>
+      </section> -->
 
-      <section class="contact">
+      <!-- <section class="contact">
          <div class="container">
 
             <h2 class="contact__heading">Interested in doing a project together?</h2>
@@ -78,21 +84,21 @@
             <a class="contact__link" href="#">CONTACT ME</a>
 
          </div>
-      </section>
+      </section> -->
    </main>
 
     <!--========================= FOOTER =========================-->
 
     <footer class="footer">
-      <div class="container">
-         <a href="./home.html\" class="header__logo-link">
+      <!-- <div class="container">
+         <a  class="header__logo-link" href="./home.html\">
             <img  class="header__logo-link__image" src="" alt="logo">
          </a>
 
          <nav class="header__nav">
             <ul class="nav__item">
                <li class="nav__item">
-                  <a class="nav__link nav__link" href="./home.html">HOME</a>
+                  <a class="nav__link" href="./home.html">HOME</a>
                </li>
                <li class="nav__item">
                   <a class="nav__link" href="#">PORTFOLIO</a>
@@ -102,9 +108,9 @@
                </li>
             </ul>
          </nav>
-      </div>
+      </div> -->
     </footer>
 
-   
+   <script src="./js/main.js"></script>
 </body>
 </html>
