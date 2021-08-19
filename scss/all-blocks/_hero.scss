@@ -2,6 +2,12 @@
    margin-bottom: 96px;
 }
 
+.hero__inner{
+   max-width: 1240px;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
 .hero .container{
    margin: 0 auto;
    padding: 265px 0px;
@@ -143,18 +149,12 @@
 @include media-max(500px){
 
    .hero{
-      position: relative;
       margin-bottom: 380px;
-      padding-top: 280px;
    }
 
    .hero .container{
-      position: absolute;
-      z-index: -10;
       top: 0;
       left: 20%;
-      max-width: 311px;
-      height: 271px;
       background-image: url('../images/bitmap-mob.jpg');
    }
 

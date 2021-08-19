@@ -71,7 +71,7 @@
    }
 
    .header--open .hamburgerbtn__exit{
-      z-index: 200px;
+      z-index: 201px;
       display: block;
    }
 
@@ -79,12 +79,10 @@
       display: none;
    }
 
-   .header--open .hamburgerbtn__menu{
-      display: none;
-   }
+
 
    .header--open .header__nav{
-      position: fixed;
+      position: absolute;
       z-index: 200;
       top: 100%;
       right: 0;
@@ -100,7 +98,7 @@
       flex-direction: column;
    }
 
-   .nav__item{
+   .nav__item{ 
       text-align: center;
    }
 
