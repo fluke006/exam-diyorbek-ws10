@@ -52,29 +52,91 @@
          </div>
       </section>
 
-      <!-- <section class="about  id="aboutme">
+      <section class="about" id="aboutme">
          <div class="container">
             <picture class="about__picture">
 
+               <!-- WebP -->
+
+               <source
+               type="image/webp"
+               media="(max-width:650px)"
+               srcset="
+               ./images/man-mob.webp 1x ,
+               ./images/man-mob@2x.webp 2x
+               "
+             />
+
+              <source
+              type="image/webp"
+              media="(max-width:780px)"
+              srcset="
+              ./images/man-tab.wepb 1x ,
+              ./images/man-tab@2x.webp 2x
+              "
+             /> 
+
+             <source
+             type="image/webp"
+             srcset="
+               ./images/man.webp 1x ,
+               ./images/man@2x.webp 2x
+               " 
+
+             >
+
+
+
+               <!-- JPG -->
+
+               <source
+                 media="(max-width:650px)"
+                 srcset="
+                 ./images/man-mob.jpg 1x ,
+                 ./images/man-mob@2x.jpg 2x
+                 "
+               />
+
+               <source
+               media="(max-width:780px)"
+               srcset="
+               ./images/man-tab.jpg 1x ,
+               ./images/man-tab@2x.jpg 2x
+               "
+             />
+
+               <img class="about__image" 
+               src="./images/man.jpg"
+               srcset="
+               ./images/man.jpg 1x ,
+               ./images/man@2x.jpg 2x
+               " 
+               alt="image me" 
+               width="540" 
+               height="600"
+               >
+
             </picture>
 
-            <h2 class="about__heading">About Me</h2>
+            <div class="about__box">
+               <h2 class="about__heading">About Me</h2>
 
-            <p class="about__info">
-               I’m a junior front-end developer looking for a new role in an exciting company. 
-               I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript.
-                When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. 
-                I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. 
-                When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, 
-                run or cycling. I’d love you to check out my work.
-            </p>
-            
-
-            <a class="about__link" href="#">GO TO PORTFOLIO</a>
-
+               <p class="about__info">
+                  I’m a junior front-end developer looking for a new role in an exciting company. 
+                  I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript.
+                   When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. 
+                   I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. 
+                   When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, 
+                   run or cycling. I’d love you to check out my work.
+               </p>
+               
+   
+               <a class="about__link" href="#">GO TO PORTFOLIO</a>
+   
+            </div>
 
          </div>
-      </section> -->
+      </section>
 
       <!-- <section class="contact">
          <div class="container">
