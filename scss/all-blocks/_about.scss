@@ -1,3 +1,7 @@
+.about{
+   margin-bottom: 96px;
+}
+
 .about .container{
    display: flex;
    align-items: center;
@@ -11,6 +15,7 @@
 
 .about__heading{
    margin: 0;
+   margin-top: 50px;
    margin-bottom: 28px;
    font-family: "Ibarra Real Nova";
    font-style: normal;
@@ -38,6 +43,8 @@
    display: block;
    width: 100%;
    max-width: 202px;
+   margin: 0;
+   margin-bottom: 46px;
    padding: 20px;
    font-family: "Public Sans";
    font-style: normal;

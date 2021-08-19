@@ -1,0 +1,143 @@
+.contact{
+   margin-bottom: 96px;
+}
+
+.contact .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.contact__heading{
+   width: 100%;
+   max-width: 350px;
+   margin: 0;
+   margin-right: 32px;
+   font-family: "Ibarra Real Nova";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 42px;
+   letter-spacing: -0.357143px;
+   color: #33323D;
+}
+
+.contact__line{
+   display: block;
+   width: 100%;
+   max-width: 534px;
+   height: 1px;
+   margin: 0;
+}
+
+.contact__link{
+   display: block;
+   width: 100%;
+   max-width: 162px;
+   margin-left: 32px;
+   padding: 20px;
+   font-family: Public Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   text-align: center;
+   text-decoration: none;
+   color: #33323D;
+   @include text-ellipses;
+   background-color: #ffffff;
+   border: 2px solid #33323D;;
+}
+
+@include media-max(930px){
+
+   .contact__line{
+      width: 100%;
+      max-width: 500px;
+   }
+}
+
+@include media-max(920px){
+
+   .contact__heading{
+      margin-right: 25px;
+   }
+
+   .contact__line{
+      width: 100%;
+      max-width: 300px;
+   }
+}
+
+@include media-max(887px){
+
+   .contact__heading{
+      margin-right: 20px;
+   }
+
+   .contact__line{
+      width: 100%;
+      max-width: 250px;
+   }
+
+   .contact__link{
+      margin-right: 20px;
+   }
+}
+
+@include media-max(835px){
+
+   .contact__heading{
+      margin-right: 15px;
+   }
+
+   .contact__line{
+      width: 100%;
+      max-width: 220px;
+   }
+
+   .contact__link{
+      margin-right: 15px;
+   }
+}
+
+
+@include media-max(811px){
+
+   .contact__line{
+      width: 100%;
+      max-width: 113px;
+   }
+
+}
+
+@include media-max(705px){
+
+
+   .contact__line{
+      width: 100%;
+      max-width: 90px;
+   }
+}
+
+@include media-max(681px){
+
+   .contact .container{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .contact__heading{
+      width: 100%;
+      max-width: 311px;
+      margin: 0;
+      margin-bottom: 40px;
+   }
+
+   .contact__line{
+      display: none;
+   }
+}
