@@ -110,7 +110,6 @@
    .hero .container{
       padding: 265px 0px;
       padding-bottom: 0;
-      background-image: url('../images/bitmap-mob.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -121,6 +120,78 @@
       max-width: 311px;
    }
 
+}
+
+@include media-max(626px){
+
+   .hero__box{
+      width: 100%;
+      max-width: 384px;
+   }
+}
+
+@include media-max(585px){
+
+   .hero__box{
+      width: 100%;
+      max-width: 446px;
+      padding-top: 35px;
+      padding-right: 30px;
+   }
+}
+
+@include media-max(500px){
+
+   .hero{
+      position: relative;
+      margin-bottom: 380px;
+      padding-top: 280px;
+   }
+
+   .hero .container{
+      position: absolute;
+      top: 0;
+      left: 20%;
+      max-width: 311px;
+      height: 271px;
+      background-image: url('../images/bitmap-mob.jpg');
+   }
+
+   .hero__box{
+      width: 100%;
+      max-width: 315px;
+      padding: 30px 0;
+      background-color: transparent;
+   }
+}
+
+@include media-max(445px){
+
+   .hero .container{
+      left: 15%;
+   }
+
+}
+
+@include media-max(390px){
+
+   .hero .container{
+      left: 10%;
+   }
+}
+
+@include media-max(375px){
+
+   .hero .container{
+      left: 8%;
+   }
+}
+
+@include media-max(360px){
+
+   .hero .container{
+      left: 5%;
+   }
 }
 
 
@@ -142,7 +213,7 @@ only screen and (                min-resolution: 2dppx) {
       }
    }
 
-   @include media-max(630px){
+   @include media-max(500px){
       
       .hero .container{
          background-image: url('../images/bitmap-mob@2x.jpg');
