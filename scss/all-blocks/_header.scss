@@ -67,11 +67,12 @@
    }
 
    .header__hamburgerbtn{
+      z-index: 100;
       display: block;
    }
 
    .header--open .hamburgerbtn__exit{
-      z-index: 201px;
+      z-index: 101px;
       display: block;
    }
 
@@ -82,11 +83,12 @@
 
 
    .header--open .header__nav{
-      position: absolute;
-      z-index: 200;
+      position: fixed;
+      z-index: 100;
       top: 100%;
       right: 0;
       width: 100%;
+      max-width: 100%;
       max-width: 223px;
       height: 186px;
       display: block;
