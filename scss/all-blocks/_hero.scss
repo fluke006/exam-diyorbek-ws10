@@ -54,6 +54,14 @@
    background-size: contain;
 }
 
+.hero__link:hover{
+   background-color: #5FB4A2;
+}
+
+.hero__link:active{
+   background-color: #979797;
+}
+
 
 @include media-max(1071px){
    .hero__box{
@@ -97,6 +105,24 @@
    }
 }
 
+@include media-max(630px){
+
+   .hero .container{
+      padding: 265px 0px;
+      padding-bottom: 0;
+      background-image: url('../images/bitmap-mob.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+   }
+
+   .hero__box{
+      width: 100%;
+      max-width: 311px;
+   }
+
+}
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -113,6 +139,13 @@ only screen and (                min-resolution: 2dppx) {
    @include media-max(785px){
       .hero .container{
          background-image: url('../images/Bitmap@2x-tab.jpg');
+      }
+   }
+
+   @include media-max(630px){
+      
+      .hero .container{
+         background-image: url('../images/bitmap-mob@2x.jpg');
       }
    }
 } 
