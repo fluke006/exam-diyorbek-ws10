@@ -150,6 +150,7 @@
 
    .hero .container{
       position: absolute;
+      z-index: -10;
       top: 0;
       left: 20%;
       max-width: 311px;

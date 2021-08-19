@@ -84,7 +84,8 @@
    }
 
    .header--open .header__nav{
-      position: absolute;
+      position: fixed;
+      z-index: 200;
       top: 100%;
       right: 0;
       width: 100%;
